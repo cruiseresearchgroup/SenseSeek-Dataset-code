@@ -42,7 +42,8 @@ For time information:<br />
   - start, end: the starting and ending timestamps of the event recorded during the experiment.
   - start_sec, end_sec: the starting and ending times in seconds related to the experiment starting time during the experiment.
 <br />
-For task information:<br />
+
+For task information: <br />
   - task: the sequence of the task, from 0 -- 11. 
   - name: the full name of the event.
   - stage: the abbreviation of the current event.
