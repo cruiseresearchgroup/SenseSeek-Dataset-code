@@ -9,40 +9,40 @@ The link contains two zip files:
   - SenseSeek_Screen_Recordings.zip (4.6 GB) with the gaze-annotated screen recordings.
 
 ### Dataset Instruction
-The dataset folder is structured as follows:
-|EYETRACKER
-  |contains 3 sub-folders (features, processed, raw), with each containing the following 2 sub-folders corresponding to the data type:
-      |GAZE
-      |PUPIL
-|HEADSET
-  |contains 3 sub-folders (features, processed, raw), with each containing the following 2 sub-folders corresponding to the data type:
-      |EEG
-      |head motion
-|WRISTBAND
-  |contains 3 sub-folders (features, processed, raw), with each containing the following 2 sub-folders corresponding to the data type:
-      |ACC (for the wrist motion)
-      |EDA
-|TIME (contains csv file with all event timestamps for each participant)
-| attention_checks.csv (contains the participants' answers to the judgement questions)
-| demographic.csv (contains the demographic information)
-| self_ratings.csv (contains the self-rated answers)
-| survey_durations.csv (contains the durations for all events in the experiments of all participants) 
-| task_materials.xlsx (contains the topic, backstories, search results, and the judgment questions used in the experiment)
+The dataset folder is structured as follows:<br />
+|EYETRACKER<br />
+  |contains 3 sub-folders (features, processed, raw), with each containing the following 2 sub-folders corresponding to the data type:<br />
+      |GAZE<br />
+      |PUPIL<br />
+|HEADSET<br />
+  |contains 3 sub-folders (features, processed, raw), with each containing the following 2 sub-folders corresponding to the data type:<br />
+      |EEG<br />
+      |head motion<br />
+|WRISTBAND<br />
+  |contains 3 sub-folders (features, processed, raw), with each containing the following 2 sub-folders corresponding to the data type:<br />
+      |ACC (for the wrist motion)<br />
+      |EDA<br />
+|TIME (contains csv file with all event timestamps for each participant)<br />
+| attention_checks.csv (contains the participants' answers to the judgement questions)<br />
+| demographic.csv (contains the demographic information)<br />
+| self_ratings.csv (contains the self-rated answers)<br />
+| survey_durations.csv (contains the durations for all events in the experiments of all participants) <br />
+| task_materials.xlsx (contains the topic, backstories, search results, and the judgment questions used in the experiment)<br />
 
 * The raw EEG and head motion data are saved in EDF files. The rest of the data is saved in CSV files.
 
-The data files are structured as follows:
-Apart from the data columns, all processed files are annotated with the following event information at each row:
+The data files are structured as follows:<br />
+Apart from the data columns, all processed files are annotated with the following event information at each row:<br />
 
-For time information:
+For time information:<br />
 - ts: timestamps of current data point in ISO 8601 time format with milliseconds (e.g., 2023-08-15 10:14:53.950000+10:00), calculated based on the recorded starting time and the sampling rate.
 - sec: the time in seconds related to the experiment starting time.
 - sec2: the time in seconds related to each session starting time. There are 2 sessions in each experiment. 
 - durations: the total duration of the event.
 - start, end: the starting and ending timestamps of the event recorded during the experiment.
 - start_sec, end_sec: the starting and ending times in seconds related to the experiment starting time during the experiment.
-
-For task information:
+<br />
+For task information:<br />
 - task: the sequence of the task, from 0 -- 11. 
 - name: the full name of the event.
 - stage: the abbreviation of the current event.
