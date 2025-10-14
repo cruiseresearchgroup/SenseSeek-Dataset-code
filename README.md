@@ -2,6 +2,8 @@
 
 The repository contains several Jupyter Notebooks with data analysis and visualizations and Python files with model training. All required packages are listed in the requirements.txt file. The training data, i.e., the features, are included in the 'training data' folder, in a csv format. 
 
+The paper is available at https://dl.acm.org/doi/10.1145/3749501. 
+
 ### Data Availability:
 The use of the SenseSeek dataset is limited to academic research purposes. The SenseSeek dataset is publicly available and can be accessed on the OSF platform at https://osf.io/waunb/?view_only=f50ce00dc96f486e83ff5ccef71d13f3. An additional description of the dataset is included in the paper appendix. 
 
